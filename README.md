@@ -22,7 +22,7 @@
 * Configuration
 
 * Database creation
-  bin/rails db:create
+  - bin/rails db:create
   
 * Database initialization
 
@@ -31,5 +31,25 @@
 * Services (job queues, cache servers, search engines, etc.)
 
 * Deployment instructions
+
+---
+` - install wsl ubuntu
+  - install rbenv
+  - install ruby 3.1.2
+  - install ruby 2.7.6
+  - install nvm
+  - install node 18
+  - install node 12
+  - install yarn
+  - install rails 7.0.4
+  - install postgresql 15
+  - connect posgressql and rails
+  - create db in posgressql
+  - run rails server
+`
+---
+
+- add controller article
+- add dotenv-rails
 
 # 11 2022
