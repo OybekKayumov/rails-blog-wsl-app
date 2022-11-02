@@ -50,6 +50,11 @@
 ---
 
 - add controller article
+- add root route
 - add dotenv-rails
+- db:migrate
+- irb create article
+- irb save article
+- erb show articles using .each
 
 # 11 2022
