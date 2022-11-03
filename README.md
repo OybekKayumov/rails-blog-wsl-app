@@ -51,5 +51,6 @@
 
 - add controller article
 - add dotenv-rails
+- add linters eslint and rubocop
 
 # 11 2022
