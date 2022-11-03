@@ -53,4 +53,4 @@
 - add dotenv-rails
 - add linters eslint and rubocop
 
-# 11 2022
+# Nov, 2022
