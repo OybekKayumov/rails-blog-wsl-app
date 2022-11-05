@@ -56,5 +56,7 @@
 - irb create article
 - irb save article
 - erb show articles using .each
+- add linters eslint and rubocop
 
-# 11 2022
+
+# Nov, 2022
