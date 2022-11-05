@@ -50,7 +50,13 @@
 ---
 
 - add controller article
+- add root route
 - add dotenv-rails
+- db:migrate
+- irb create article
+- irb save article
+- erb show articles using .each
 - add linters eslint and rubocop
+
 
 # Nov, 2022
