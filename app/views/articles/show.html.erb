@@ -13,17 +13,7 @@
 </ul>
 
 <h2>Comments</h2>
-<% @article.comments.each do |comment| %>
-  <p>
-    <strong>Commenter:</strong>
-    <%= comment.commenter %>
-  </p>
-
-  <p>
-    <strong>Commen:</strong>
-    <%= comment.body %>
-  </p>
-<% end %>
+<%= render @article.comments %>
 
 <h2>Add a comment:</h2>
 <%= form_with model: [ @article, @article.comments.build ] do |form| %>
@@ -41,3 +31,17 @@
     <%= form.submit %>
   </p>
 <% end %>
+
+
+<%# changed with partial from //comments/_comment.html.erb %>
+<%# <% @article.comments.each do |comment| >
+  <p>
+    <strong>Commenter:</strong>
+    <%= comment.commenter >
+  </p>
+
+  <p>
+    <strong>Comment:</strong>
+    <%= comment.body >
+  </p>
+<% end > %>
