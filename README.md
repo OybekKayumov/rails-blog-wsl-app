@@ -58,7 +58,8 @@
 - erb show articles using .each
 - add linters eslint and rubocop
 - fix linters
-- add model
+- add model Article
+- add model Comment
 
 
 # Nov, 2022
