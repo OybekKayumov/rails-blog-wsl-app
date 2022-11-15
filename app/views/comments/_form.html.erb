@@ -10,8 +10,14 @@
   </p>
 
   <p>
+    <%= form.label :status %><br>
+    <%= form.select :status, ['public', 'private', 'archived'], selected: 'public' %>
+  </p>
+  
+  <p>
     <%= form.submit %>
   </p>
 <% end %>
 
-<%# 9.3 Using Concerns %>
+<%# 10 Deleting Comments %>
+
